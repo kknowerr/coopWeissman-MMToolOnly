@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/MissionMillionaire/static/css/main.2f66df2a.chunk.css",
+    "main.js": "/MissionMillionaire/static/js/main.0429d40c.chunk.js",
+    "main.js.map": "/MissionMillionaire/static/js/main.0429d40c.chunk.js.map",
+    "runtime-main.js": "/MissionMillionaire/static/js/runtime-main.faa95cc9.js",
+    "runtime-main.js.map": "/MissionMillionaire/static/js/runtime-main.faa95cc9.js.map",
+    "static/css/2.1881a404.chunk.css": "/MissionMillionaire/static/css/2.1881a404.chunk.css",
+    "static/js/2.5d2fe00c.chunk.js": "/MissionMillionaire/static/js/2.5d2fe00c.chunk.js",
+    "static/js/2.5d2fe00c.chunk.js.map": "/MissionMillionaire/static/js/2.5d2fe00c.chunk.js.map",
+    "index.html": "/MissionMillionaire/index.html",
+    "static/css/2.1881a404.chunk.css.map": "/MissionMillionaire/static/css/2.1881a404.chunk.css.map",
+    "static/css/main.2f66df2a.chunk.css.map": "/MissionMillionaire/static/css/main.2f66df2a.chunk.css.map",
+    "static/js/2.5d2fe00c.chunk.js.LICENSE.txt": "/MissionMillionaire/static/js/2.5d2fe00c.chunk.js.LICENSE.txt",
+    "static/js/main.0429d40c.chunk.js.LICENSE.txt": "/MissionMillionaire/static/js/main.0429d40c.chunk.js.LICENSE.txt",
+    "static/media/marc.e8607287.jpg": "/MissionMillionaire/static/media/marc.e8607287.jpg",
+    "static/media/sidebar-1.0a127c58.jpg": "/MissionMillionaire/static/media/sidebar-1.0a127c58.jpg",
+    "static/media/sidebar-2.22f68ba5.jpg": "/MissionMillionaire/static/media/sidebar-2.22f68ba5.jpg",
+    "static/media/sidebar-3.e667b13e.jpg": "/MissionMillionaire/static/media/sidebar-3.e667b13e.jpg",
+    "static/media/sidebar-4.dd4b5581.jpg": "/MissionMillionaire/static/media/sidebar-4.dd4b5581.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.faa95cc9.js",
+    "static/css/2.1881a404.chunk.css",
+    "static/js/2.5d2fe00c.chunk.js",
+    "static/css/main.2f66df2a.chunk.css",
+    "static/js/main.0429d40c.chunk.js"
+  ]
+}
