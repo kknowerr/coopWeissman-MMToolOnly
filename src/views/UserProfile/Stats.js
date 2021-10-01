@@ -27,7 +27,10 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js";
 const useStyles = makeStyles(styles);
+
 function Stats(props) {
+  const final= Number(props.final)
+  console.log(final.toFixed(2))
     const classes = useStyles();
     return (
         <GridContainer>
@@ -95,7 +98,7 @@ function Stats(props) {
               <Accessibility />
             </CardIcon>
             <p className={classes.cardCategory}>Savings</p>
-            <h3 className={classes.cardTitle}>${props.savings}</h3>
+            <h3 className={classes.cardTitle}>${final.toFixed(2)}</h3>
           </CardHeader>
           <CardFooter stats>
             <div className={classes.stats}>

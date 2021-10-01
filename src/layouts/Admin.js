@@ -96,7 +96,7 @@ export default function Admin({ ...rest }) {
     <div className={classes.wrapper}>
       <Sidebar
         routes={routes}
-        logoText={"Creative Tim"}
+        logoText={"Mission Millionaire"}
         logo={logo}
         image={image}
         handleDrawerToggle={handleDrawerToggle}
@@ -118,7 +118,7 @@ export default function Admin({ ...rest }) {
         ) : (
           <div className={classes.map}>{switchRoutes}</div>
         )}
-        {getRoute() ? <Footer /> : null}
+        {/* {getRoute() ? <Footer /> : null} */}
         {/* <FixedPlugin
           handleImageClick={handleImageClick}
           handleColorClick={handleColorClick}

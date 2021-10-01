@@ -48,7 +48,7 @@ function Chart(props) {
       data.push(
         {
           "name": age,
-          "id": intBar,
+          "Principal": intBar,
           "uv": 1.1,
           "Amount(US Dollars)": savings-intBar,
         }
@@ -65,7 +65,7 @@ function Chart(props) {
          <Tooltip />
         <Legend />
         <CartesianGrid strokeDasharray="3 3" />
-        <Bar dataKey="id" stackId="a" fill="#8884d8" />
+        <Bar dataKey="Principal" stackId="a" fill="#8884d8" />
         <Bar dataKey="Amount(US Dollars)" stackId="a" fill="#4caf4f" />
         {/* <Bar dataKey="uv" fill="#82ca9d" /> */}
 

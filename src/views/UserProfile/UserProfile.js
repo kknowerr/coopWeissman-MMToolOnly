@@ -92,15 +92,14 @@ const [interest, setInterest] = useInterest();
 
     
   function calculate() {
-  const result = (interest/12*(amount-savings*(1+interest/12)**((retirement-age)*12)))/((1+interest/12)**((retirement-age)*12)-1)
+  const result = (interest/12*(amount-savings*(1+interest/12)**((retirement-age)*12)))/((1+interest/12)**((retirement-age)*12)-1).toFixed(2)
     // (r/12*(1000000-I*(1+r/12)**(t*12)))/((1+r/12)**(t*12)-1)
     const test = (income-savings)
-    console.log(interest*interest)
-    console.log(Number(age)+Number(age))
 
-    setFinal(result) 
+    setPieChart(false)
+    setFinal(result.toFixed(2)) 
   if (result>0){
-    setCollapse(!collapse)
+    setCollapse(false)
   }
   // invalid response 
   else if(age< 0 || age>100){
@@ -114,17 +113,22 @@ const [interest, setInterest] = useInterest();
   }
   else if(retirement> 100 || retirement<age){
     alert("Invalid Response: Retirement Age must be greater than current age and less than 100")
-  }else{
-  // display based on feilds that were not filled
-  if (income>0 ){
-    setPieChart(false)
   }
-  if (expenses>income ){
+  // display based on feilds that were not filled
+  if (income<1 ){
     setPieChart(true)
+  }
+  if (Number(expenses)>Number(income) ){
+    setPieChart(true)
+    console.log("howdy")
   }
   if (income<Number(result)){
     setPieChart(true)
-  }};
+    console.log("ho")
+  }
+  if (expenses<0){
+    setPieChart(true)
+  }
   };
 
   return (
@@ -239,7 +243,7 @@ const [interest, setInterest] = useInterest();
               <p className={classes.cardCategoryWhite}></p>
             </CardHeader>
             <CardBody>
-      <Stats income={income} spending={spending} expenses={expenses} savings={savings}/>
+      <Stats income={income} spending={spending} expenses={expenses} final={final}/>
     </CardBody>
     </Card>
     </GridContainer>
