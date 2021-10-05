@@ -146,7 +146,7 @@ const [interest, setInterest] = useInterest();
         <GridItem xs={12} sm={12} md={15}>
           <Card>
             <CardHeader color="primary">
-              <h4 className={classes.cardTitleWhite}>Monthly Contribution Calculator</h4>
+              <h4 className={classes.cardTitleWhite}>Mothly Contribution Calculator</h4>
               <p className={classes.cardCategoryWhite}>Calculate how much money you need to invest per month to reach your longterm goals</p>
             </CardHeader>
             <CardBody>
