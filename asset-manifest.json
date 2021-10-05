@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/MMToolOnly/static/css/main.2f66df2a.chunk.css",
+    "main.js": "/MMToolOnly/static/js/main.b7b3cf69.chunk.js",
+    "main.js.map": "/MMToolOnly/static/js/main.b7b3cf69.chunk.js.map",
+    "runtime-main.js": "/MMToolOnly/static/js/runtime-main.57d87a88.js",
+    "runtime-main.js.map": "/MMToolOnly/static/js/runtime-main.57d87a88.js.map",
+    "static/css/2.1881a404.chunk.css": "/MMToolOnly/static/css/2.1881a404.chunk.css",
+    "static/js/2.25a8fb87.chunk.js": "/MMToolOnly/static/js/2.25a8fb87.chunk.js",
+    "static/js/2.25a8fb87.chunk.js.map": "/MMToolOnly/static/js/2.25a8fb87.chunk.js.map",
+    "index.html": "/MMToolOnly/index.html",
+    "static/css/2.1881a404.chunk.css.map": "/MMToolOnly/static/css/2.1881a404.chunk.css.map",
+    "static/css/main.2f66df2a.chunk.css.map": "/MMToolOnly/static/css/main.2f66df2a.chunk.css.map",
+    "static/js/2.25a8fb87.chunk.js.LICENSE.txt": "/MMToolOnly/static/js/2.25a8fb87.chunk.js.LICENSE.txt",
+    "static/js/main.b7b3cf69.chunk.js.LICENSE.txt": "/MMToolOnly/static/js/main.b7b3cf69.chunk.js.LICENSE.txt",
+    "static/media/marc.e8607287.jpg": "/MMToolOnly/static/media/marc.e8607287.jpg",
+    "static/media/sidebar-1.0a127c58.jpg": "/MMToolOnly/static/media/sidebar-1.0a127c58.jpg",
+    "static/media/sidebar-2.22f68ba5.jpg": "/MMToolOnly/static/media/sidebar-2.22f68ba5.jpg",
+    "static/media/sidebar-3.e667b13e.jpg": "/MMToolOnly/static/media/sidebar-3.e667b13e.jpg",
+    "static/media/sidebar-4.dd4b5581.jpg": "/MMToolOnly/static/media/sidebar-4.dd4b5581.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57d87a88.js",
+    "static/css/2.1881a404.chunk.css",
+    "static/js/2.25a8fb87.chunk.js",
+    "static/css/main.2f66df2a.chunk.css",
+    "static/js/main.b7b3cf69.chunk.js"
+  ]
+}
