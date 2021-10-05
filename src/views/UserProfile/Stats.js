@@ -29,8 +29,11 @@ import styles from "assets/jss/material-dashboard-react/views/dashboardStyle.js"
 const useStyles = makeStyles(styles);
 
 function Stats(props) {
-  const final= Number(props.final)
-  console.log(final.toFixed(2))
+  const final= props.final
+  const expenses= props.expenses
+  const funMoney= props.spending
+  const income=props.income
+  
     const classes = useStyles();
     return (
         <GridContainer>
@@ -42,7 +45,7 @@ function Stats(props) {
             </CardIcon>
             <p className={classes.cardCategory}>Salary</p>
             <h3 className={classes.cardTitle}>
-              ${props.income}
+              {income}
             </h3>
           </CardHeader>
           <CardFooter stats>
@@ -64,7 +67,7 @@ function Stats(props) {
               <Store />
             </CardIcon>
             <p className={classes.cardCategory}>Fun Money</p>
-            <h3 className={classes.cardTitle}>${(props.spending).toFixed(2)}</h3>
+            <h3 className={classes.cardTitle}>{funMoney}</h3>
           </CardHeader>
           <CardFooter stats>
             <div className={classes.stats}>
@@ -81,7 +84,7 @@ function Stats(props) {
               <Icon>info_outline</Icon>
             </CardIcon>
             <p className={classes.cardCategory}>expenses</p>
-            <h3 className={classes.cardTitle}>${(props.expenses)}</h3>
+            <h3 className={classes.cardTitle}>{expenses}</h3>
           </CardHeader>
           <CardFooter stats>
             <div className={classes.stats}>
@@ -97,8 +100,8 @@ function Stats(props) {
             <CardIcon color="info">
               <Accessibility />
             </CardIcon>
-            <p className={classes.cardCategory}>Savings</p>
-            <h3 className={classes.cardTitle}>${final.toFixed(2)}</h3>
+            <p className={classes.cardCategory}>Contributions</p>
+            <h3 className={classes.cardTitle}>{final}</h3>
           </CardHeader>
           <CardFooter stats>
             <div className={classes.stats}>

@@ -15,6 +15,9 @@ function Chart(props) {
     var final = props.contributions;
     var intBar = 0;
     const time = "0" ; 
+    function currencyFormat(num) {
+   return '$' + num.toFixed(0).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+}
     const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     return (
@@ -33,7 +36,7 @@ function Chart(props) {
       
       ]
 
-      for (var i = 0; i < years; i=i+1){
+      for (var i = 0; i < years+1; i=i+1){
         age = (2021+i)
         savings = Number(savings)
         final= Number(final)
@@ -48,9 +51,9 @@ function Chart(props) {
       data.push(
         {
           "name": age,
-          "Principal": intBar,
-          "uv": 1.1,
-          "Amount(US Dollars)": savings-intBar,
+          "Principal": currencyFormat(intBar),
+          "uv": 1.5,
+          "Amount(US Dollars)": currencyFormat(savings-intBar),
         }
       )
         amount= Number(amount)
