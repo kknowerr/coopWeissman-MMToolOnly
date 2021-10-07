@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coopWeissman/MMToolOnly"
+    "url": "git+http://testerdomainmmtool.club/"
   },
   "keywords": [],
   "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
@@ -43,7 +43,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
   },
-  "homepage": "https://coopweissman.github.io/MMToolOnly/",
+  "homepage": "http://testerdomainmmtool.club/",
   "optionalDependencies": {
     "@babel/core": "7.14.0",
     "typescript": "4.2.4"

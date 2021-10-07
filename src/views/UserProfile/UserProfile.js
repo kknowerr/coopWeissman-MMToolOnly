@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     overflow: "hidden",
+    margin: "5%",
     padding: theme.spacing(0, 1),
   },
   card: {
@@ -53,6 +54,11 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     display: 'flex',
+  },
+  MobileAdjust: {
+    width: "100%",
+    marginRight: "0px",
+    paddinfLeft: "-30px",
   }
 }));
 
@@ -144,7 +150,7 @@ const [interest, setInterest] = useInterest();
     <div className="root">
       <GridContainer>
         <GridItem xs={12} sm={12} md={15}>
-          <Card>
+          <Card className={classes.MobileAdjust}>
             <CardHeader color="primary">
               <h4 className={classes.cardTitleWhite}>Mothly Contribution Calculator</h4>
               <p className={classes.cardCategoryWhite}>Calculate how much money you need to invest per month to reach your longterm goals</p>

@@ -14,7 +14,7 @@ function Visual() {
 
 
     return (
-        <div>
+        <div >
         <UserProfile interest={interest} setInterest={setInterest} amount={amount} age={age} income={income} expenses={expenses} retirment={retirement} savings={savings} final={final}/>
         </div>
     )
