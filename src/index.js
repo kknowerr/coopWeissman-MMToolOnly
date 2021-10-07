@@ -33,5 +33,9 @@ ReactDOM.render(
       <Redirect from="/" to="/admin/dashboard" />
     </Switch>
   </HashRouter>,
-  document.getElementById("root")
+  document.getElementById("root").
+
+  app.get("/*", function (req, res) {
+   res.sendFile(path.resolve(__dirname, '../client/build', 'index.html'));
+})
 );
